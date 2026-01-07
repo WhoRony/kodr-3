@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    background-color: #001d21;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px    44px ;
+}
+
+.nav-left-content {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-left-content h3{
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.nav-left-content ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+
+}
+.nav-left-content ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.nav-right-content button{
+    font-size: 19px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.main-title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 88px 44px 0px 44px;
+    
+}
+.main-title-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.main-title h1{
+    font-size: 60px;    
+    font-weight: 400;
+    color : white;
+    line-height: 70px;
+}
+
+.main-title p{
+    color: white;
+}
+
+.main-title button{
+    width: fit-content;
+    font-size: 19px;
+    padding: 10px 20px;
+    margin-right:20px ;
+    border-radius: 10px;
+    border: none;
+}
+
+.main-title-img img{ 
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.second-main{
+    margin-top: -10px;
+    background-color: #f9f9f7   ;
+    display: flex;
+    position: relative;
+    z-index: 100;
+    gap: 140px;
+    padding: 55px 44px 0px 44px;
+}
+
+.second-main-left h4{
+    white-space: nowrap;
+    color: #001d21;
+    font-size: 19px;
+    font-weight: 500;
+}
+.second-main-left span{
+    color: black;
+}
+
+.second-main-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second-main-right-top {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.second-main-right-bottom {
+    gap:20px;
+    display: flex;
+    padding: 20px 0px 0px 0px;
+}
+
+.second-main-right-bottom h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+.second-main-right-bottom p{
+    color: grey;
+}
+
+.second-main-right-bottom div{
+    padding:0px 0px 0px 12px;
+    border-left: 1px solid rgb(198, 184, 184);
+    
+}
+
+.third-main{
+    padding: 40px 44px;
+    background-color: blue;
+}
