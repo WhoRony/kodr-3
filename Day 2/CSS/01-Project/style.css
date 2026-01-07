@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1766596534244-104ac1d954f1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 19px;
+    background-color: white;
+    border-radius: 50px;
+    z-index: 1000;
+    position: absolute;
+    gap: 110px;
+    justify-self: center;
+    margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;   
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    gap: 14px;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color : black;
+}
+
+#nav h1 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#nav h1 sup {
+    font-size: 10px;
+}
+
+#nav button{
+    all: unset;
+    background-color: black;
+    color: white;
+    padding: 16px 27px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#nav ul li{
+    padding: 4px 10px;
+    border-radius: 25px;
+}
+
+#nav ul li:hover{
+    background-color: #eee;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 10px;
+    flex-direction: column;
+    color: white;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.left h2{
+    font-size: 34px;
+    font-weight: 400;
+}
+.left h2 span {
+    font-style: italic;
+}
+
+.right {
+    display: flex;
+    gap: 60px;
+}
+
+.down-items{
+    display: flex;
+    gap: 180px;
+}
+.down-p{
+    display: flex;
+    width:100%;
+}
+
+.right-card h3{
+    font-weight: 400;
+    font-size: 33px;
+}
+
+.right-card p{
+    font-size: 16px;
+}
