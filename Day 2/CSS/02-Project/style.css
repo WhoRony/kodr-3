@@ -141,6 +141,7 @@ main{
     display: flex;
     justify-content: space-between;
     padding-top: 34px;
+    padding-bottom: 34px;
 }
 .bottom-card{
     border-left: 1px solid #4e4e4e3a;
@@ -158,8 +159,6 @@ main{
     color: #4e4e4e;
     padding-top: 12px;
 }
-
-
 
 .section-3{
     max-width: 1176px; 
@@ -180,12 +179,16 @@ main{
 
 .main-3 .section-3 .left-container .left span{
     color: black;
-    font-size: 20px;
+    font-size: 25px;    
 }
 .section-3 .left-container .left p{
     font-family: "first-font";
     font-size: 16px;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
+}
+
+.section-3 .left .left-para{
+    padding: 13px 0px 0px 0px;
 }
 
 .left h1{
@@ -196,4 +199,82 @@ main{
 .section-3 .right-container .right img{
     width: 100%;
     border-radius: 15%;
+}
+
+.main-4{
+    background-color: #001d21;
+    color: white;
+}
+
+.section-4 {
+    width: 1176px;
+    margin: auto;
+}
+
+.section-4 .upper{
+    padding: 42px 0px;
+    width: 70%;
+}
+.section-4 .upper p{
+    padding-bottom: 20px;
+    font-family: "second-font";
+    font-size: 16px;
+}
+
+.section-4 .upper h1{
+    font-family: "second-font";
+    font-size: 54px;
+}
+
+.section-4 .lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.section-4 .lower{
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+}
+
+.section-4 .lower .lower-left{
+    width: 40%;
+    }
+
+.section-4 .lower-right{
+    width: 60%;
+}
+.section-4 .lower-right img{
+    border-radius: 20px;
+    background-size: cover;
+    width: 100%;
+}
+
+.section-4 .lower .lower-left h1{
+    font-family: "second-font";
+    padding: 12px 12px 12px 0px;
+    border-top: 1px solid #4e4e4e;
+    color: #666;
+    font-size:34px;
+}
+.section-4 .lower .lower-left h1:hover{
+    color: white;
+}
+
+.section-4 .lower .lower-left p{
+    font-family: "second-font";
+    border-top: 1px solid #4e4e4e;
+    padding: 49px 0px 50px 0px;
+    font-size: 16px;
+    
+}
+
+.section-4 .lower .lower-left button{
+    font-family: "first-font";
+    font-weight: 400;
+    font-size: 15px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: none;
 }
