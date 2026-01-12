@@ -22,6 +22,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    
 }
 nav {
     width: 100%;
@@ -277,4 +278,57 @@ main{
     padding: 12px 20px;
     border-radius: 12px;
     border: none;
+}
+
+.section-5{
+    width: 1176px;
+    margin: auto;   
+    display: flex;
+    padding: 60px 0px;
+}
+
+.left-container{
+    width: 40%;
+}
+.left-container .left-text{
+    font-size: 16px;
+    font-family: "second-font";
+}
+.right-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.right-container .image-containe-5{
+    width: 90%;
+}
+
+.right-container .image-containe-5 img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.right-container .text-container-5{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.main-5 .section-5 .section-5-card-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-container-5 .text-container-top h1{
+    font-family: "second-font";
+    font-size: 34px;
+}
+
+.text-container-5 .text-container-top p{
+    font-family: "second-font";
+    font-size: 16px; 
 }
