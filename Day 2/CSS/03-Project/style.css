@@ -157,7 +157,6 @@ main{
     width: 50%;
     height: 400px;
     background-image: url(https://i.pinimg.com/736x/d3/35/8e/d3358eb92686d45b0acc3d08302696c8.jpg);
-    background-color: aqua;
     background-size: cover;
     background-position: center;
 }
@@ -166,7 +165,6 @@ main{
     width: 50%;
     height: 400px;
     background-image: url(https://i.pinimg.com/736x/81/70/77/8170777543566032ae7f75af39684448.jpg);
-    background-color: crimson;
     background-size: cover;
     background-position: center;
 
