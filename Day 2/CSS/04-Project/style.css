@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 22px;
+}
+nav .left h2{
+    font-size: 29px;
+}
+nav .right{
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+nav .right .right-ul ul{
+    display: flex;
+    justify-content: space-between;
+    gap:110px;
+}
+nav .right .right-ul ul li {
+    list-style: none;
+}
+nav .right .right-ul ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+.right .right-buttons{
+    display: flex;
+    gap: 12px;
+    padding: 0px 22px 0px 0px;
+}
+
+
+.right .right-buttons .button-1{
+    padding: 12px 22px;
+    border-radius: 12px;
+    
+}
+.right .right-buttons .button-2{
+    padding: 12px 22px;
+    background-color: #dfe858;
+    border-radius: 12px;
+}
