@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 54px;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 13px;
+}
+.navbar .left-nav {
+  display: flex;
+  gap: 24px;
+}
+.navbar .left-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  
+}
+.navbar .left-nav ul li{
+    list-style: none;
+}
+.navbar .left-nav ul li a{
+    text-decoration: none;
+}
+
+.navbar .left-nav img {
+  display: flex;
+  align-items: center;
+  height: 23px;
+  gap: 16px;
+  cursor: pointer;
+}
+.navbar .right-nav {
+  display: flex;
+  align-items: center;
+  padding:  0 54px;
+}
+.navbar .right-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-decoration: none;
+}
+.navbar .right-nav ul li{
+    list-style:none;
+}
+.navbar .right-nav ul li a{
+  text-decoration: none;
+}
+
+.navbar a{
+    color: #262626;
+}
+.navbar ul li a:hover{
+
+    text-decoration: underline;
+}
+.section-1{
+    height: 490px;
+    position: relative;
+}
+.section-1 .img{
+    background-image: url(./Highlight-Surface-Laptop-AI-7Ed-Sapphire-MC001-3000x1682_VP5-1920x600.webp);
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-1 .text{
+    position: absolute;
+    top: 43%;
+    left: 8%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #000;
+}
+
+.section-1 .text h1{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.section-1 .text button {
+    width: fit-content;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0067b8;
+    border: none;
+}
+.section-1 .text button:hover{
+  background-color: #015596;
+}
+.section-2 .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.section-3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem;
+}
+
+.section-3 .links{
+  display: flex;
+  flex-direction: column;
+}
+.section-3 .links img{
+  height:44px;
+}
+
+.section-3 .links a{
+  color: #0067b8;
+}
+
+.section-4{
+  display: flex;
+  gap: 12px;
+  padding: 3rem 4rem;
+  align-items: center;
+}
+.section-4 .card{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+
+.section-4 .card img{
+  width: 100%;
+  background-size: cover;
+}
+
+.section-4 .card h1{
+  padding: 24px 24px;
+  font-weight: 500;
+}
+
+.section-4 .card p{
+  padding: 24px 24px;
+}
+
+.section-4 .card button{
+    margin: 24px 24px;
+    width: fit-content;
+    padding: 12px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0067b8;
+    border: none;
+}
+
+.section-5{
+  height: 490px;
+  position: relative;
+  padding: 1rem 3rem;
+}
+
+.section-5 .img {
+    background-image: url(./Highlight-Hero-Windows11-GlobalLaunch_VP5-1596x600.webp);
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-5 .text{
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #fff;
+    width: 30%;
+}
+
+.section-5 .text h1{
+  font-weight: 600;
+}
+
+.section-5 .text button {
+    width: fit-content;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0067b8;
+    border: none;
+}
+.section-5 .text button:hover{
+  background-color: #015596;
+}
+
+.for-bus h1{
+  padding-left: 4rem;
+  padding-top: 5rem;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 3rem;
+}
+.section-6 {
+  display: flex;
+  gap: 12px;
+  padding: 3rem 4rem;
+  align-items: center;
+}
+.section-6 .card{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+
+.section-6 .card img{
+  width: 100%;
+  background-size: cover;
+}
+
+.section-6 .card h1{
+  padding: 24px 24px;
+  font-weight: 500;
+}
+
+.section-6 .card p{
+  padding: 24px 24px;
+}
+
+.section-6 .card button{
+    margin: 24px 24px;
+    width: fit-content;
+    padding: 12px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0067b8;
+    border: none;
+}
+
+.section-7{
+  display: flex;
+  width: 100%;
+  align-items: center ;
+  gap: 12px;
+  padding: 4rem 5rem;
+}
+
+.section-7 img{
+  height: 2rem;
+}
+
+.section-8 {
+  background-color: #f2f2f2;
+}
+
+.footer {
+  padding: 3rem 4rem;
+  font-size: 13px;
+  color: #616161;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col h4 {
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 10px;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
