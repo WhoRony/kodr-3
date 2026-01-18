@@ -1,11 +1,71 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
+.navbar {
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 54px;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 13px;
+}
+.navbar .left-nav {
+  display: flex;
+  gap: 24px;
+}
+.navbar .left-nav ul {
+    display: flex;
+  align-items: center;
+  gap: 24px;
+  
+}
+.navbar .left-nav ul li{
+    list-style: none;
+}
+.navbar .left-nav ul li a{
+    text-decoration: none;
+}
+
+.navbar .left-nav img {
+  display: flex;
+  align-items: center;
+  height: 23px;
+  gap: 16px;
+  cursor: pointer;
+}
+.navbar .right-nav {
+  display: flex;
+  align-items: center;
+  padding:  0 54px;
+}
+.navbar .right-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  text-decoration: none;
+}
+.navbar .right-nav ul li{
+    list-style:none;
+}
+.navbar .right-nav ul li a{
+    text-decoration: none;
+}
+
+.navbar a{
+    color: #262626;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+}
