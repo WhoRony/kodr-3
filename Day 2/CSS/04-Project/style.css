@@ -10,6 +10,7 @@ html,body{
     height: 100%;
 }
 
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -54,4 +55,25 @@ nav .right .right-ul ul li a {
     padding: 12px 22px;
     background-color: #dfe858;
     border-radius: 12px;
+}
+.section-1{
+    width: 100%;
+    background-color: aqua;
+}
+.section-1 .left{
+    width: 35%;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    padding: 42px 22px;
+}
+
+.section-1 .left h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.section-1 .left button{
+    width: fit-content;
 }
